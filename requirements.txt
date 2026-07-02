@@ -1,0 +1,26 @@
+# Requirements for AI Studio Download Manager
+# Android-compatible Python packages
+
+# Core UI Framework (Android compatible)
+kivy>=2.2.0
+kivymd>=1.1.1
+
+# Networking (Android compatible)
+requests>=2.28.0
+urllib3>=1.26.0
+chardet>=5.0.0
+idna>=3.4
+certifi>=2023.7.22
+
+# Image processing (Android compatible)
+pillow>=9.5.0
+
+# XML processing
+lxml>=4.9.0
+
+# Android-specific (via buildozer/p4a)
+# These are handled by buildozer.spec:
+# - pyjnius
+# - android
+# - ssl
+# - sqlite3
